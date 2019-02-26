@@ -3,7 +3,7 @@ const execSync = require('child_process').execSync
 
 const path = require('path')
 const app = express()
-const port = 8081
+const port = 80
 
 app
 .get('/', (req, res) => {
