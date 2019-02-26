@@ -13,6 +13,6 @@ app
     res.send('Sending shutdown command ..........')
     code = execSync('shutdown /s /t 10');
     console.log(code);
-})
+}) 
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`)) 
